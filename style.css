@@ -429,6 +429,21 @@ ul {
     color: #e0e0e0;
 }
 
+.about-img-container {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.about-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--secondary-color);
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
+}
+
 .highlight {
     color: var(--secondary-color);
     font-weight: 600;
