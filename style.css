@@ -104,6 +104,16 @@ ul {
     }
 }
 
+/* Visibility Utilities */
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: flex;
+    /* Matches original hero-img-container display */
+}
+
 /* --- Utilities --- */
 .container {
     max-width: 1200px;
@@ -966,6 +976,14 @@ ul {
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
+    .mobile-only {
+        display: block;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
     .section {
         padding: 60px 0;
     }
